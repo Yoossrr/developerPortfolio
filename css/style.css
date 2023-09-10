@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --main-color:rgb(0, 120, 255)
+}
+html {
+    scroll-behavior: smooth;
+}
+td {
+    font-size: 18;
+}
+#home {
+    min-height: 100vh;  
+}
+
+#background {
+    
+    background-image: url(../Icons/hero-bg.jpg);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+#home h1 {
+    font-size: 76;
+}
+
+#About {
+    background-color: #F5F5F5;
+}
+#Services {
+    background-color: #F5F5F5;
+}
+.header h3 {
+    font-size: 48;
+}
+.fa-solid {
+    border-color: var(--main-color) !important;
+}
+
+.sercive-item i {
+    transition: 0.3s 0.2s;
+}
+
+.sercive-item:hover i {
+    border-color: #CDE1F8 !important;
+    background-color: var(--main-color);
+    color: white;
+}
+
+#first-transition-bg {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    background-image: url(../Icons/counters-bg.jpg);
+
+}
+#first-transition {
+    background-color: var(--main-color);
+}
+
+#first-transition .fa-solid {
+    border-color: white !important;
+}
+#work {
+    background-color: #F5F5F5;
+}
+.work-item {
+    overflow: hidden;
+}
+.work-item img {
+    transition: 0.3s 0.3s;
+}
+.work-item:hover img{
+    transform: scale(1.1);
+}
+
+#carousel-bg {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    background-image: url(../Icons/overlay-bg.jpg);
+
+}
+#carousel {
+    background-color: var(--main-color);
+}
+
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px!important;
+    border-radius: 100%!important;
+    margin-bottom: 15%;
+}
+
+.carousel-caption {
+    top: 50%;
+    left: 50%;
+}
+
+#blog {
+    background-color: #F5F5F5;
+}
+#blog-item a {
+    transition: 0.3s 0.3s;
+}
+
+#blog-item:hover a {
+    color: var(--main-color) !important;
+}
+
+.footer{
+    background-color: #0062D3;
+    min-height: 15vh;
+    color: white;
+    line-height: 1;
+}
